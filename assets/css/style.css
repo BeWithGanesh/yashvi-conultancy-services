@@ -1,0 +1,453 @@
+
+/* #ccb892 - brown
+#18407c - blue 
+#191919  - black */
+
+html {
+	scroll-behavior: smooth;
+  text-decoration: none;
+    
+}
+
+body{
+  background-color: #ccb892 ;
+
+}
+
+
+/* navbar */
+
+
+.navbar-default {
+
+  background-color: transparent;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+.custom-toggler.navbar-toggler { 
+  border-color: #ccb892; 
+} 
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
+
+.custom-toggler .navbar-toggler-icon { 
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(24, 64, 124, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item{
+  font-size: 18px;
+  letter-spacing: 2px;
+ 
+
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:30px;
+  
+  
+}
+
+.nav-item > a{
+  color: #18407c ;
+  
+}
+
+/* .nav-item > a:hover{
+  color: aliceblue;
+} */
+
+
+
+/* home */
+
+
+.hd{
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  margin-top: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.hyd{
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  margin-top: 70px;
+  padding: 10px;
+
+}
+
+.main-txt-sm{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.main-txt-md{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 12px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.main-txt-lg{
+  padding-top: 50px;
+  width: 700px;
+  text-align: center;
+  font-size: 14px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.home{
+  position: relative;
+  background-color: #18407c;
+  width: 100%;
+  height: 550px;
+  
+
+ 
+}
+
+.txt-sm{
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 30px;
+}
+
+.txt-ssm{
+
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 40px;
+
+}
+
+.txt-md{
+
+  padding-top: 10px;
+ 
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 100px;
+
+}
+
+.txt-lg{
+
+  padding-top: 10px;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 100px;
+
+
+}
+
+
+/* Services */
+.ser{
+    padding: 30px;
+ }
+
+img{
+    height:150px;
+    width:100%;
+  }
+
+  div [class^="col-"]{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  .card{
+    transition:0.5s;
+    cursor:pointer;
+    margin-bottom: 30px;
+    
+   
+  }
+  .card-title{  
+    font-size:25px;
+    transition:1s;
+    cursor:pointer;
+  }
+  .card-title a{
+      text-decoration: none;
+  }
+  .card-title i{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+    color:#ffa710
+  }
+  .card-title i:hover{
+    transform: scale(1.25) rotate(100deg); 
+    color:#18d4ca;
+    
+  }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  }
+  .card-text{
+    height:80px;  
+    padding: 5px;
+  }
+  
+  .card::before, .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+  }
+  .card::before {
+    transform-origin: left top;
+  }
+  .card::after {
+    transform-origin: right bottom;
+  }
+  .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+    transform: scale3d(1, 1, 1);
+  }
+
+
+
+  /* About us */
+
+  .at{
+    padding-top: 20px;
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #191919;
+    
+  }
+
+  .heading{
+
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 30px;
+    color:#ccb892;
+
+  }
+
+  span.rest{
+    color: #18407c;
+  }
+
+  .heading-lg{
+
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 40px;
+    color:#ccb892;
+    /* text-shadow: 2px 2px 4px #000000; */
+  }
+
+  .heading-md{
+
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 40px;
+    color:#ccb892;
+    /* text-shadow: 2px 2px 4px #000000; */
+  }
+
+
+  .us{
+    border-radius: 50px 0px;
+    width: 50%;
+    padding: 30px;
+  }
+
+  .us_text_lg{
+    position: absolute;
+    top: 105px; 
+    left: 52%;
+      
+  }
+
+  .us_text_md{
+    position: absolute;
+    top: 100px; 
+    left: 55%;
+    width: 300px;
+      
+  }
+
+  .sm_us_text{
+    padding: 30px;
+  }
+
+  .contain{
+    position: relative;
+
+  }
+
+
+  /* contact us */
+
+  /* .image-fluid{
+    -webkit-filter: blur(5px); 
+    filter: blur(5px);
+    height: 250px;
+  } */
+
+ .contact{
+   background-color:#18407c;
+   padding: 30px;
+   color: aliceblue;
+   border-radius: 0px 0px 50px;
+ }
+
+ .btton-sm{
+   position: relative;
+   left: 35%;
+   background-color:#18407c;
+ }
+
+
+.btton-md{
+
+  position: relative;
+  left: 75%;
+  top: -70px;
+  background-color:#18407c;
+
+}
+
+.btton-lg{
+
+  position: relative;
+  left: 75%;
+  top: -80px;
+  background-color:#18407c;
+
+}
+
+  /* footer */
+
+  .fot{
+    background-color:#ccb892; 
+    color: #18407c;
+    text-align: center;
+    padding: 10px;
+  
+  }
+
+
+  /* head */
+  
+  .hed{
+    background-color:#18407c; 
+    color: #ffd369;
+    padding: 30px;
+    text-align: center;
+ 
+  }
+
+
+
+
+  /* #ccb892 - brown
+#18407c - blue 
+#191919  - black */
+
+
+  /* Contact-us.html */
+
+
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  padding: 30px;
+
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+     color: #ccb892;
+    background: #ccb892;
+    background: -moz-linear-gradient(left,#ccb892  0%,#18407c 100%) !important;
+    background: -webkit-linear-gradient(left,#ccb892  0%,#18407c 100%) !important;
+    background: linear-gradient(to right,#ccb892  0%,#18407c  100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #18407c;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #18407c;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(125deg,#18407c,#18407c);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+
+.to-home > a{
+  color:#18407c;
+  font-size: 20px;
+ 
+  
+  
+}
+
+.to-home > a:hover{
+  color: #ffa710;
+  text-decoration: none;
+}
+  
