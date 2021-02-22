@@ -1,3 +1,8 @@
+<?php include 'recruiterform.php'; ?>
+<style>
+<?php include 'assets/css/style.css'; ?>
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +21,7 @@
      <script src="assets/js/script.js"></script>
  
  
-     <title>Contact-Us</title>
+     <title>Recruiter Corner</title>
  
      <!-- fonts -->
      <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -50,6 +55,9 @@
 
     </div>
 
+    <!--alert messages start-->
+    <?php echo $alert; ?>
+    <!--alert messages end-->
 
 
     <!-- navbar -->
@@ -71,7 +79,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.php">Home</a>
             </li>
 
             </ul>
@@ -84,30 +92,45 @@
     <!-- form -->
 
     <section class="get-in-touch">
-        <h1 class="title">Get in touch</h1>
-        <form class="contact-form row">
-           <div class="form-field  col-lg-12">
-              <input id="name" class="input-text js-input" type="text" required>
+        <h1 class="title">Recruiter Corner</h1>
+        <form class="contact-form row" method="POST">
+           <div class="form-field  col-lg-6">
+              <input id="name" class="input-text js-input" type="text" name="name" required>
               <label class="label" for="name">Name</label>
            </div>
+            <div class="form-field col-lg-6 ">
+                <input id="company" class="input-text js-input" type="text" name="cmpname" required>
+                <label class="label" for="company">Company Name</label>
+            </div>
            <div class="form-field col-lg-6 ">
-              <input id="email" class="input-text js-input" type="email" required>
+              <input id="email" class="input-text js-input" type="email" name="email" required>
               <label class="label" for="email">E-mail</label>
            </div>
-           <!-- <div class="form-field col-lg-6 ">
-              <input id="company" class="input-text js-input" type="text" required>
-              <label class="label" for="company">Company Name</label>
-           </div> -->
+           
             <div class="form-field col-lg-6 ">
-              <input id="phone" class="input-text js-input" type="text" required>
+              <input id="phone" class="input-text js-input" type="text" name="contactno" required>
               <label class="label" for="phone">Contact Number</label>
            </div>
+
+           
+
            <div class="form-field col-lg-12">
-              <input id="message" class="input-text js-input" type="text" required>
-              <label class="label" for="message">Message</label>
+            <label for="position" style="font-size: 18px; color: #18407c;">Need of Position </label> &nbsp;
+            <select name="position" id="position">
+              <option>Developer</option>
+              <option>Designer</option>
+              <option>Test Engineer</option>
+              <option selected>none</option>
+            </select>
+           </div>
+           
+           
+           <div class="form-field col-lg-12">
+              <input id="message" class="input-text js-input" type="text" name="jd" required>
+              <label class="label" for="message">Job Description</label>
            </div>
            <div class="form-field col-lg-12">
-              <input class="submit-btn" type="submit" value="Submit">
+              <input class="submit-btn" type="submit" value="Submit" name="submit">
            </div>
         </form>
      </section>
@@ -121,6 +144,13 @@
         <br>
         <p>Copyright ©2021 All rights reserved | YASHVI Consultancy Services</p>
     </div>
+
+
+    <script type="text/javascript">
+    if(window.history.replaceState){
+      window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
     
 </body>
 </html>
