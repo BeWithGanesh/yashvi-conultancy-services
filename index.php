@@ -38,12 +38,11 @@
     -->
 
 
-    <div class="hed contain">
+    <!-- <div class="hed">
 
-      <br>
-      <p>logo</p>
+     <p>YASHVI</p>
 
-    </div>
+    </div> -->
 
 
 
@@ -162,7 +161,7 @@
         
           <p>At YASHVI Consultancy Services we are a newly formed collaboration of creative and skilled professionals who blend confirmatory thinking with traditional techniques.</p>
         
-          <button type="button" class="btn btn-outline-secondary">More About Us</button>
+          <button type="button" class="btn btn-outline-dark">More About Us</button>
       
       </div> 
 
@@ -183,7 +182,7 @@
           <p>At YASHVI Consultancy Services, Our Vision is to be a toolkit for the corporate to provide competitive and Qualitative Human Asset to the Company with long-term association.</p>
         
           
-          <button type="button" class="btn btn-outline-secondary">More About Us</button>
+          <button type="button" class="btn btn-outline-dark">More About Us</button>
 
       
       </div> 
@@ -207,7 +206,7 @@
           <p>At YASHVI Consultancy Services, Our Vision is to be a toolkit for the corporate to provide competitive and Qualitative Human Asset to the Company with long-term association.</p>
         
           
-          <button type="button" class="btn btn-outline-secondary">More About Us</button>
+          <button type="button" class="btn btn-outline-dark">More About Us</button>
       
       </div> 
 

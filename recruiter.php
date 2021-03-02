@@ -51,7 +51,7 @@
     <div class="hed contain">
 
       <br>
-      <p>logo</p>
+      <p>YASHVI Consultancy Services</p>
 
     </div>
 

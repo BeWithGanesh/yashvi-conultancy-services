@@ -52,7 +52,7 @@
     <div class="hed contain">
 
       <br>
-      <p>logo</p>
+      <p>YASHVI Consultancy Services</p>
 
     </div>
 
@@ -117,8 +117,8 @@
             <label for="position" style="font-size: 18px; color: #18407c;">Applying for Position</label> &nbsp;
             <select name="position" id="position">
               <option>Developer</option>
-              <option>position 2</option>
-              <option>position 3</option>
+              <option>Designer</option>
+              <option>Support Engineer</option>
               <option selected>none</option>
             </select>
            </div>

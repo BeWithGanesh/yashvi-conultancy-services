@@ -93,7 +93,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 .main-txt-md{
   padding-top: 50px;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
@@ -101,8 +101,8 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 .main-txt-lg{
   padding-top: 50px;
   width: 700px;
-  text-align: center;
-  font-size: 14px;
+  text-align: justify;
+  font-size: 18px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
@@ -111,9 +111,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
   position: relative;
   background-color: #18407c;
   width: 100%;
-  height: 550px;
-  
-
+  height: 680px;
  
 }
 
@@ -331,7 +329,7 @@ img{
   background-color:#18407c;
 
 }
-
+ 
   /* footer */
 
   .fot{
@@ -348,9 +346,10 @@ img{
   .hed{
     background-color:#18407c; 
     color: #ffd369;
-    padding: 30px;
+    padding: 0px;
     text-align: center;
- 
+   
+
   }
 
 
@@ -466,3 +465,11 @@ img{
   text-align: center;
 
 }
+
+
+/* buttons */
+
+
+
+
+/* logo */
